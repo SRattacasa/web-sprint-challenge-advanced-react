@@ -30,13 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+Don't unless you need to. Always prefer functional components for simplicity and to avoid the need to use "this".
+
 2. Describe the different phases of the component lifecycle.
+
+There are phases before the mounting, after the mounting, before the removal, and after the unmounting (removal).
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+Based on the lifecycle method used, you can do things like wait for a component to mount before executing code, executing code for cleanup once something is removed, etc.
+
 4. Define stateful logic.
 
+Stateful logic is any code/logic that uses the current "state" of a given value, array, etc. Stateful means in essence "as X exists" where X is the value or obj in question
+
 5. Describe how to test a React component with React Testing Library.
+
+Because our instruction on this was poor, I'm not very apt at explaining it yet. But you essentially want to display what you would be testing (arrange), take some expected action on it (act), and then validate the expected results contain the information/data expected (assess).
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
